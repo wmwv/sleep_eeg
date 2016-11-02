@@ -1,5 +1,5 @@
 function pall=addusecd_tospecpall(pall, usecdarray)
-if nargin<2; usecdarray=load('T:\pupil\pan2\data\FZusecdarray.mat'); usecdarray=usecdarray.usecdarray; end %loading as struct for some reason
+if nargin<2; usecdarray=load('FZusecdarray.mat'); usecdarray=usecdarray.usecdarray; end %loading as struct for some reason
 
 for i=1:length(pall)
     
